@@ -3,7 +3,7 @@
 skinparam backgroundColor #F0F0F0
 skinparam shadowing false
 
-skinparam entity {
+skinparam class {
   BackgroundColor LightYellow
   BorderColor Black
   FontColor Black
