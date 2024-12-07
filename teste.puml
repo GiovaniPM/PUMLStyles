@@ -2,8 +2,7 @@
 ' **                         Color Section                               **
 ' *************************************************************************
 ' Days
-'!$CLOSED_BK = lightgray
-!$CLOSED_BK = red
+!$CLOSED_BK = lightgray
 !$CLOSED_LINE = white
 
 ' Task
