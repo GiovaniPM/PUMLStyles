@@ -1,6 +1,6 @@
 ' meu_estilo.puml
 
-skinparam backgroundColor #F0F0F0
+skinparam backgroundColor green
 skinparam shadowing false
 
 skinparam class {
