@@ -1,0 +1,18 @@
+' meu_estilo.puml
+
+skinparam backgroundColor #F0F0F0
+skinparam shadowing false
+
+skinparam entity {
+  BackgroundColor LightYellow
+  BorderColor Black
+  FontColor Black
+  FontSize 14
+}
+
+skinparam note {
+  BackgroundColor LightBlue
+  BorderColor Blue
+  FontColor Blue
+  FontSize 12
+}
