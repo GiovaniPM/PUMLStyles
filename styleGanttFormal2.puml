@@ -1,0 +1,131 @@
+' *************************************************************************
+' **                         Color Section                               **
+' *************************************************************************
+' Days
+!$CLOSED_BK = "#006B3C"
+!$CLOSED_LINE = white
+
+' Task
+!$ALTERNATIVE_COLOR =  Aqua/Blue
+!$DONE_COLOR = "#006B3C"
+!$TASK_FONT_COLOR = "#32CD32"
+!$UNDONE_COLOR = "#006B3C"
+
+' Legend
+!$LEGEND_COLOR = lightgreen/white
+!$LEGEND_FONT = "#006B3C"
+!$LEGEND_LINE = "#006B3C"
+
+' Milestone
+!$MILESTONE_COLOR_BK = gold/green
+!$MILESTONE_COLOR_FONT = green
+!$MILESTONE_COLOR_LINE = red
+
+' Days
+!$HOLIDAY_COLOR = "#006B3C"
+!$TODAY_COLOR =  yellow
+
+' Path
+!$CRITICAL_PATH_COLOR = red
+!$NORMAL_PATH_COLOR = "#006B3C"
+
+' Note
+!$NOTE_COLOR_BK = lightgreen/"#FFFFFF"
+!$NOTE_COLOR_FONT = black
+!$NOTE_COLOR_LINE = black
+
+' Separator
+!$SEPARATOR_COLOR_BK = "#006B3C"/white
+!$SEPARATOR_COLOR_FONT = black
+!$SEPARATOR_COLOR_LINE = black
+
+' Time line
+!$TIMELINE_COLOR = "#006B3C"/lightgreen
+
+' Title
+!$TITLE_FONT = "#006B3C"
+
+' *************************************************************************
+' **                        Style Section                                **
+' *************************************************************************
+' Styles 
+<style>
+
+  ganttDiagram {
+    task {
+      BackGroundColor $DONE_COLOR
+      FontColor $TASK_FONT_COLOR
+      FontName Tahoma
+      FontSize 12
+      FontStyle bold
+      LineColor $DONE_COLOR
+      'unstarted {
+      '  BackGroundColor $UNDONE_COLOR
+      '  LineColor $UNDONE_COLOR
+      '}
+    }
+    'undone {
+    '  BackGroundColor red
+    '}
+    milestone {
+      BackGroundColor $MILESTONE_COLOR_BK
+      FontColor $MILESTONE_COLOR_FONT
+      FontName Tahoma
+      FontSize 10
+      FontStyle italic
+      LineColor $MILESTONE_COLOR_LINE
+    }
+    separator {
+      BackGroundColor $SEPARATOR_COLOR_BK
+      FontColor $SEPARATOR_COLOR_FONT
+      FontName Tahoma
+      FontSize 16
+      FontStyle bold
+      LineColor $SEPARATOR_COLOR_LINE
+    }
+    note {
+      BackGroundColor $NOTE_COLOR_BK
+      FontColor $NOTE_COLOR_FONT
+      FontName Tahoma
+      FontSize 10
+      HorizontalAlignment left
+      LineColor $NOTE_COLOR_LINE
+    }
+    timeline {
+      BackgroundColor $TIMELINE_COLOR
+      FontStyle bold
+    }
+    closed {
+      BackGroundColor $CLOSED_BK
+      FontColor $CLOSED_FONT
+    }
+  }
+  footer {
+    HorizontalAlignment right
+  }
+  title {
+    FontColor $TITLE_FONT
+    FontName Tahoma
+    FontSize 40
+    FontStyle italic
+    HorizontalAlignment center
+  }
+  legend {
+    BackGroundColor $LEGEND_COLOR
+    BorderRoundCorner 8
+    BorderThickness 1
+    FontColor $LEGEND_FONT
+    FontName Tahoma
+    FontStyle bold
+    LineColor $LEGEND_LINE
+  }
+
+</style>
+
+skinparam footerFontColor $TITLE_FONT
+skinparam footerFontSize 12
+skinparam footerFontStyle italic
+'skinparam titleBackgroundColor Aqua-CadetBlue
+'skinparam titleBorderColor blue
+'skinparam titleBorderRoundCorner 15
+'skinparam titleBorderThickness 2
