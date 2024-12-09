@@ -49,7 +49,7 @@
 
 ' Milestone
 !$MILESTONE_COLOR_BK = gold/green
-!$MILESTONE_COLOR_FONT = green
+!$MILESTONE_COLOR_FONT = "#32CD32"
 !$MILESTONE_COLOR_LINE = red
 
 ' Days
@@ -87,7 +87,7 @@
       BackGroundColor $DONE_COLOR
       FontColor $TASK_FONT_COLOR
       FontName Tahoma
-      FontSize 12
+      FontSize 14
       FontStyle bold
       LineColor $DONE_COLOR
       'unstarted {
@@ -102,7 +102,7 @@
       BackGroundColor $MILESTONE_COLOR_BK
       FontColor $MILESTONE_COLOR_FONT
       FontName Tahoma
-      FontSize 10
+      FontSize 14
       FontStyle italic
       LineColor $MILESTONE_COLOR_LINE
     }
