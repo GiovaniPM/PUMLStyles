@@ -33,13 +33,13 @@
 ' **                         Color Section                               **
 ' *************************************************************************
 ' Days
-!$CLOSED_BK = "#006B3C"
+!$CLOSED_BK = "#cbe86b" /'"#006B3C"'/
 !$CLOSED_LINE = white
 
 ' Task
 !$ALTERNATIVE_COLOR =  Aqua/Blue
-!$DONE_COLOR = "#006B3C"
-!$TASK_FONT_COLOR = "#32CD32"
+!$DONE_COLOR = lightgreen /'"#006B3C"'/
+!$TASK_FONT_COLOR = "#006B3C" /'"#32CD32"'/
 !$UNDONE_COLOR = "#006B3C"
 
 ' Legend
@@ -49,11 +49,11 @@
 
 ' Milestone
 !$MILESTONE_COLOR_BK = gold/green
-!$MILESTONE_COLOR_FONT = "#32CD32"
+!$MILESTONE_COLOR_FONT = "#006B3C" /'"#32CD32"'/
 !$MILESTONE_COLOR_LINE = red
 
 ' Days
-!$HOLIDAY_COLOR = "#006B3C"
+!$HOLIDAY_COLOR = "#cbe86b" /'"#006B3C"'/
 !$TODAY_COLOR =  yellow
 
 ' Path
