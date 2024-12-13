@@ -180,8 +180,8 @@ skinparam footerFontStyle italic
   'Label on last column and left aligned                                      /'Task appear in the gantt begin'/
   'Label on first column and left aligned                                     /'Task appear in the gantt end'/
   language pt                                                                /'language'/
-  hide resources names                                                       /'Hide the ressources names in the name task'/
-  hide resources footbox                                                     /'Hide the ressources'/
+  'hide resources names                                                       /'Hide the ressources names in the name task'/
+  'hide resources footbox                                                     /'Hide the ressources'/
   
   ' Project Scale                                                            /'How the scale coluns will showed in the gant'/
   printscale daily zoom 1.5
